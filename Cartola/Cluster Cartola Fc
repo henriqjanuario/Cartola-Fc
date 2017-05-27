@@ -17,7 +17,7 @@ Rodada = 2
 def escalar(cartoletas):
     pass
 # ----------------------------------------------------------------------------------------------------------#
-#TEXTO
+
 # -----------------------FUNÇÃO PARA ADICIONAR ADVERSÁRIOS NA LISTA adversarios-----------------------------#
 def jogos(link):
     casa = None
