@@ -1,0 +1,20 @@
+{'Clube': 'Grêmio', 'Aproveitamento': '100.0', 'Media do time': 5.59, 'G': '4', 'GC': '0', 'Cluster Time': 6.356439869281045}
+{'Clube': 'Flamengo', 'Aproveitamento': '66.7', 'Media do time': 4.41, 'G': '4', 'GC': '1', 'Cluster Time': 2.8770550925925926}
+{'Clube': 'Bahia', 'Aproveitamento': '50.0', 'Media do time': 5.98, 'G': '7', 'GC': '4', 'Cluster Time': 2.75905}
+{'Clube': 'Fluminense', 'Aproveitamento': '100.0', 'Media do time': 3.5, 'G': '5', 'GC': '3', 'Cluster Time': 2.3716820987654317}
+{'Clube': 'Palmeiras', 'Aproveitamento': '50.0', 'Media do time': 5.03, 'G': '4', 'GC': '1', 'Cluster Time': 2.327873671497585}
+{'Clube': 'Corinthians', 'Aproveitamento': '66.7', 'Media do time': 3.7, 'G': '2', 'GC': '1', 'Cluster Time': 2.0837938128654967}
+{'Clube': 'Cruzeiro', 'Aproveitamento': '66.7', 'Media do time': 4.41, 'G': '2', 'GC': '1', 'Cluster Time': 2.04150439845679}
+{'Clube': 'São Paulo', 'Aproveitamento': '50.0', 'Media do time': 3.74, 'G': '2', 'GC': '1', 'Cluster Time': 2.036493827160494}
+{'Clube': 'Chapecoense', 'Aproveitamento': '66.7', 'Media do time': 3.09, 'G': '2', 'GC': '1', 'Cluster Time': 2.0257378529411767}
+{'Clube': 'Ponte Preta', 'Aproveitamento': '50.0', 'Media do time': 6.32, 'G': '4', 'GC': '2', 'Cluster Time': 1.9172679738562086}
+{'Clube': 'Botafogo', 'Aproveitamento': '50.0', 'Media do time': 4.86, 'G': '2', 'GC': '2', 'Cluster Time': 1.713796296296296}
+{'Clube': 'Coritiba', 'Aproveitamento': '50.0', 'Media do time': 4.28, 'G': '4', 'GC': '2', 'Cluster Time': 1.3276895424836597}
+{'Clube': 'Santos', 'Aproveitamento': '50.0', 'Media do time': 3.82, 'G': '3', 'GC': '3', 'Cluster Time': 1.291956790123457}
+{'Clube': 'Vasco', 'Aproveitamento': '50.0', 'Media do time': 3.79, 'G': '2', 'GC': '5', 'Cluster Time': 0.930342105263158}
+{'Clube': 'Vitória', 'Aproveitamento': '16.7', 'Media do time': 2.85, 'G': '0', 'GC': '1', 'Cluster Time': 0.5029117105263158}
+{'Clube': 'Atlético-MG', 'Aproveitamento': '16.7', 'Media do time': 2.07, 'G': '2', 'GC': '3', 'Cluster Time': 0.2691565196078431}
+{'Clube': 'Avaí', 'Aproveitamento': '16.7', 'Media do time': 2.83, 'G': '0', 'GC': '2', 'Cluster Time': 0.22456146176470584}
+{'Clube': 'Atlético-GO', 'Aproveitamento': '0', 'Media do time': 1.81, 'G': '1', 'GC': '7', 'Cluster Time': 0.08838995535714286}
+{'Clube': 'Sport', 'Aproveitamento': '16.7', 'Media do time': 0.42, 'G': '1', 'GC': '5', 'Cluster Time': 0.08458921111111108}
+{'Clube': 'Atlético-PR', 'Aproveitamento': '0', 'Media do time': 0.0, 'G': '2', 'GC': '8', 'Cluster Time': 0.07697916666666665}
