@@ -4,13 +4,13 @@ import requests
 jogadores = []
 serie_a = []
 adversarios = []
-mando_fora = ["Coritiba", "Palmeiras", "Bahia", "Fluminense", "Grêmio", "Corinthians", "Ponte Preta", "Cruzeiro",
-              "Avaí", "Flamengo"]
+mando_fora = ["Atlético-PR", "Santos", "Vitória", "Botafogo", "Vasco", "São Paulo", "Atlético-MG", "Sport",
+              "Chapecoense", "Atlético-GO"]
 
 time_tipo_1 = ["Grêmio", "Flamengo", "Corinthians", "Palmeiras", "Atlético-MG", "São Paulo", "Santos", "Cruzeiro"]
 time_tipo_2 = ["Fluminense", "Ponte Preta", "Coritiba", "Vasco", "Atlético-PR", "Chapecoense"]
 time_tipo_3 = ["Bahia", "Vitória", "Avaí", "Atlético-GO", "Sport", "Botafogo"]
-Rodada = 2
+Rodada = 3
 
 
 # -----------------------FUNÇÃO PARA ESCALAR O TIME COM UM NUMERO LIMITADO DE CARTOLETAS--------------------#
@@ -22,11 +22,11 @@ def escalar(cartoletas):
 def jogos(link):
     casa = None
     fora = None
-    if link.find("div", "game-club game-club--principal") is not None and '3-rodada' in link.find("td", "match").a[
+    if link.find("div", "game-club game-club--principal") is not None and '4-rodada' in link.find("td", "match").a[
         "href"].split("/"):
         casa = link.find("div", "game-club game-club--principal")['title']
 
-    if link.find("div", "game-club game-club--visitor") is not None and '3-rodada' in link.find("td", "match").a[
+    if link.find("div", "game-club game-club--visitor") is not None and '4-rodada' in link.find("td", "match").a[
         "href"].split("/"):
         fora = link.find("div", "game-club game-club--visitor")['title']
 
@@ -62,7 +62,10 @@ def tabela_a(link):
             "Media do time": None,
             "G": g,
             "GC": gc,
-            "Cluster Time": 0
+            "Cluster Time Ataque": 0,
+            "Cluster Time Defesa": 0,
+            "Cluster Time Media": 0,
+            "Cluster Time Rodada": 0
         }
     else:
         pass
@@ -96,7 +99,7 @@ def jogador_info(link):
         "Jogos": qtde_jogos,
         "Media do time": None,
         "Para valorizar": 999,
-        "Cluster": -5
+        "Cluster": None
     }
 
 
@@ -210,26 +213,31 @@ for jogador in jogadores:
 # -----------------------------------------------------------------------------------------------------------#
 
 
-# --------------------------PRINTA TODAS AS INFORMAÇÕES DOS JOGADORES----------------------------------------#
-# for jogador in jogadores:
-#    print(jogador)
-# -----------------------------------------------------------------------------------------------------------#
-
-
 # ------------------------CLUSTERIZA OS TIMES PARA A RODADA E SOMA O CLUSTER DO TIME EM CADA JOGADOR---------#
+
 for classi in serie_a:
     i = 0
     for jogador in jogadores:
         if jogador["Status"] == 'provavel':
-            if jogador['Time'] == classi['Clube']:
-                classi["Cluster Time"] = classi["Cluster Time"] + jogador['Cluster']
-                i += 1
-    classi["Cluster Time"] = classi["Cluster Time"] / i
+            if jogador["Posiçao"] == 'Atacante' or jogador["Posiçao"] == 'Meia':
+                if jogador['Time'] == classi['Clube']:
+                    classi["Cluster Time Ataque"] = classi["Cluster Time Ataque"] + jogador['Cluster']
+                    i += 1
+    classi["Cluster Time Ataque"] = classi["Cluster Time Ataque"] / i
 
-for jogador in jogadores:
-    for classi in serie_a:
-        if jogador["Time"] == classi["Clube"]:
-            jogador["Cluster"] += classi["Cluster Time"]
+for classi in serie_a:
+    i = 0
+    for jogador in jogadores:
+        if jogador["Status"] == 'provavel':
+            if jogador["Posiçao"] == 'Zagueiro' or jogador["Posiçao"] == 'Lateral' or jogador["Posiçao"] == 'Goleiro':
+                if jogador['Time'] == classi['Clube']:
+                    classi["Cluster Time Defesa"] = classi["Cluster Time Defesa"] + jogador['Cluster']
+                    i += 1
+    classi["Cluster Time Defesa"] = classi["Cluster Time Defesa"] / i
+
+for classi in serie_a:
+    classi["Cluster Time Media"] = (classi["Cluster Time Ataque"] + classi["Cluster Time Defesa"]) / 2
+
 # -----------------------------------------------------------------------------------------------------------#
 
 
@@ -249,16 +257,39 @@ for jogador in jogadores:
                     jogador["Adversario"] = cluster["Fora"]
                 elif cluster["Fora"] == jogador["Time"]:
                     jogador["Adversario"] = cluster["Casa"]
+
 for jogador in jogadores:
     for classi in serie_a:
         if jogador["Adversario"] == classi["Clube"]:
-                jogador["Cluster"] = jogador["Cluster"] - classi["Cluster Time"]
+            if jogador["Posiçao"] == 'Atacante' or jogador["Posiçao"] == 'Meia':
+                jogador["Cluster"] = jogador["Cluster"] - classi["Cluster Time Defesa"]
+
+for jogador in jogadores:
+    for classi in serie_a:
+        if jogador["Adversario"] == classi["Clube"]:
+            if jogador["Posiçao"] == 'Zagueiro' or jogador["Posiçao"] == 'Lateral' or jogador["Posiçao"] == 'Goleiro':
+                jogador["Cluster"] = jogador["Cluster"] - classi["Cluster Time Ataque"]
+
+for classi in serie_a:
+    i = 0
+    media_para_tecnico = 0
+    for jogador in jogadores:
+        if jogador["Time"] == classi["Clube"] and jogador["Status"] == 'provavel' and jogador["Posiçao"] != 'Técnico':
+            media_para_tecnico = media_para_tecnico + jogador["Cluster"]
+            i += 1
+    classi["Cluster Time Rodada"] = media_para_tecnico/i
+
+for jogador in jogadores:
+    for classi in serie_a:
+        if jogador["Posiçao"] == 'Técnico':
+            if jogador["Time"] == classi["Clube"]:
+                jogador["Cluster"] = classi["Cluster Time Rodada"]
 # -----------------------------------------------------------------------------------------------------------#
 
 
 # ---------------------------ORDENA A LISTA DE JOGADORES-----------------------------------------------------#
 jogadores.sort(key=lambda valor: (valor['Posiçao'], valor['Cluster'], valor['Preço']), reverse=True)
-serie_a.sort(key=lambda valor: valor['Cluster Time'], reverse=True)
+serie_a.sort(key=lambda valor: valor['Cluster Time Rodada'], reverse=True)
 # -----------------------------------------------------------------------------------------------------------#
 
 
@@ -351,5 +382,17 @@ with open("Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
             melhores.write('\n')
 # ------------------------------------------------------------------------------------------------------------#
 
-"""cartoletas = input("Quantas C$ voce tem?")
-escalar(cartoletas)"""
+
+# --------------------------PRINTA TODAS AS INFORMAÇÕES DOS JOGADORES----------------------------------------#
+# for jogador in jogadores:
+#    print(jogador)
+#    print()
+# -----------------------------------------------------------------------------------------------------------#
+
+
+# --------------------------PRINTA TODAS AS INFORMAÇÕES DOS CLUBES-------------------------------------------#
+for classi in serie_a:
+    print()
+    print(classi)
+# -----------------------------------------------------------------------------------------------------------#
+
