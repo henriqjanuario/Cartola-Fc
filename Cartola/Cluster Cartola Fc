@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import os.path
 
 jogadores = []
 serie_a = []
@@ -12,11 +13,6 @@ time_tipo_2 = ["Fluminense", "Ponte Preta", "Coritiba", "Vasco", "Atlético-PR",
 time_tipo_3 = ["Bahia", "Vitória", "Avaí", "Atlético-GO", "Sport", "Botafogo"]
 Rodada = 3
 
-
-# -----------------------FUNÇÃO PARA ESCALAR O TIME COM UM NUMERO LIMITADO DE CARTOLETAS--------------------#
-def escalar(cartoletas):
-    pass
-# ----------------------------------------------------------------------------------------------------------#
 
 # -----------------------FUNÇÃO PARA ADICIONAR ADVERSÁRIOS NA LISTA adversarios-----------------------------#
 def jogos(link):
@@ -110,7 +106,7 @@ def jogador_info(link):
 url_tabela = requests.get("http://www.tabeladobrasileirao.net/").text
 tabela = BeautifulSoup(url_tabela, 'lxml')
 
-with open("cartola.html", encoding="utf8") as html:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/HTML/cartola.html", encoding="utf8") as html:
     soup = BeautifulSoup(html, "lxml")
 # -----------------------------------------------------------------------------------------------------------#
 
@@ -294,7 +290,7 @@ serie_a.sort(key=lambda valor: valor['Cluster Time Rodada'], reverse=True)
 
 
 # -----------------------------SALVA AS PRINCIPAIS INFORMAÇÕES EM UM ARQUIVO TXT-----------------------------#
-with open("Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Pontuaçao/Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
     for jogador in jogadores:
         melhores.write(jogador['Posiçao'] + ' - ' + jogador['Nome'] + ' - ' + jogador['Time'] + ' - C$' + str(
             jogador['Preço']) + ' - ' + jogador["Status"] + ' - (%.2f)' % (jogador["Cluster"]))
@@ -305,7 +301,7 @@ with open("Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
 
 
 # ---------------------------SALVA OS VINTE MELHORES JOGADORES DE CADA POSIÇÃO EM UM ARQUIVO TXT-------------#
-with open("10 Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Pontuaçao/10 Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
     cont = 0
     for jogador in jogadores:
         if jogador["Posiçao"] == 'Goleiro' and jogador["Status"] == 'provavel' and cont < 20:
@@ -371,7 +367,7 @@ with open("10 Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhor
 
 
 # -----------------------------SALVA AS INFORMAÇÕES DE VALORIZAÇÃO EM UM ARQUIVO TXT-------------------------#
-with open("Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Pontuaçao/Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
     jogadores.sort(key=lambda valor: (valor['Posiçao'], valor['Para valorizar'], valor['Preço']))
     for jogador in jogadores:
         if int(jogador["Jogos"]) == 1 and jogador["Status"] == 'provavel':
