@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cdc45c8-08a7-4029-9b3b-fdf5c6956763" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cartola/Cluster Cartola Fc v2.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cartola/Cluster Cartola Fc" afterPath="$PROJECT_DIR$/Cartola/Cluster Cartola Fc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt" afterPath="$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt" afterPath="$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cluster/Rodada 4/Melhores para valorizar.txt" afterPath="$PROJECT_DIR$/Cluster/Rodada 4/Melhores para valorizar.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/cartola.html" afterPath="$PROJECT_DIR$/HTML/cartola.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,49 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cluster Cartola Fc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cartola/Cluster Cartola Fc">
+      <file leaf-file-name="20 Melhores para proxima rodadav2.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/20 Melhores para proxima rodadav2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="265" column="89" lean-forward="false" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#693#1283#0" expanded="false" />
-                <element signature="e#1529#2410#0" expanded="false" />
-                <element signature="e#2660#3707#0" expanded="false" />
-                <element signature="e#4771#4841#0" expanded="false" />
-                <element signature="e#5095#5230#0" expanded="false" />
-                <element signature="e#5481#5645#0" expanded="false" />
-                <element signature="e#5899#6032#0" expanded="false" />
-                <element signature="e#6346#6553#0" expanded="false" />
-                <element signature="e#6872#7129#0" expanded="false" />
-                <element signature="e#9639#10054#0" expanded="false" />
-                <element signature="e#10083#10536#0" expanded="false" />
-                <element signature="e#10932#11000#0" expanded="false" />
-                <element signature="e#11254#11595#0" expanded="false" />
-                <element signature="e#13537#13862#0" expanded="false" />
-                <element signature="e#14238#17231#0" expanded="false" />
-                <element signature="e#17599#18124#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10 Melhores para proxima rodada.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Melhores para proxima rodada.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5814">
-              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="-544">
+              <caret line="164" column="29" lean-forward="true" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -77,6 +42,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>3</find>
+      <find>klever</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,8 +55,11 @@
         <option value="$PROJECT_DIR$/Cartola/Pontuação rodadas.txt" />
         <option value="$PROJECT_DIR$/Cartola/cartola.html" />
         <option value="$PROJECT_DIR$/Cartola/10 Melhores para proxima rodada.txt" />
+        <option value="$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt" />
         <option value="$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt" />
+        <option value="$PROJECT_DIR$/HTML/cartola.html" />
         <option value="$PROJECT_DIR$/Cartola/Cluster Cartola Fc" />
+        <option value="$PROJECT_DIR$/Cartola/Cluster Cartola Fc v2.py" />
       </list>
     </option>
   </component>
@@ -99,6 +68,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -138,7 +110,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Pontuaçao" />
+              <option name="myItemId" value="Cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rodada 4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -152,11 +128,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cluster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rodada 4" />
+              <option name="myItemId" value="Cartola" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,7 +316,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -364,13 +336,13 @@
             <element signature="e#5899#6032#0" expanded="false" />
             <element signature="e#6346#6553#0" expanded="false" />
             <element signature="e#6872#7129#0" expanded="false" />
-            <element signature="e#9639#10054#0" expanded="false" />
-            <element signature="e#10083#10536#0" expanded="false" />
-            <element signature="e#10932#11000#0" expanded="false" />
-            <element signature="e#11254#11595#0" expanded="false" />
-            <element signature="e#13537#13862#0" expanded="false" />
-            <element signature="e#14238#17231#0" expanded="false" />
-            <element signature="e#17599#18124#0" expanded="false" />
+            <element signature="e#7383#10685#0" expanded="false" />
+            <element signature="e#11077#11492#0" expanded="false" />
+            <element signature="e#11521#11974#0" expanded="false" />
+            <element signature="e#12370#12438#0" expanded="false" />
+            <element signature="e#12692#13033#0" expanded="false" />
+            <element signature="e#15986#18979#0" expanded="false" />
+            <element signature="e#19347#19872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -390,13 +362,13 @@
             <element signature="e#5899#6032#0" expanded="false" />
             <element signature="e#6346#6553#0" expanded="false" />
             <element signature="e#6872#7129#0" expanded="false" />
-            <element signature="e#9639#10054#0" expanded="false" />
-            <element signature="e#10083#10536#0" expanded="false" />
-            <element signature="e#10932#11000#0" expanded="false" />
-            <element signature="e#11254#11595#0" expanded="false" />
-            <element signature="e#13537#13862#0" expanded="false" />
-            <element signature="e#14238#17231#0" expanded="false" />
-            <element signature="e#17599#18124#0" expanded="false" />
+            <element signature="e#7383#10685#0" expanded="false" />
+            <element signature="e#11077#11492#0" expanded="false" />
+            <element signature="e#11521#11974#0" expanded="false" />
+            <element signature="e#12370#12438#0" expanded="false" />
+            <element signature="e#12692#13033#0" expanded="false" />
+            <element signature="e#15986#18979#0" expanded="false" />
+            <element signature="e#19347#19872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -409,13 +381,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cartola/Melhores para segunda rodada.txt" />
-    <entry file="file://$PROJECT_DIR$/HTML/cartola.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="150885" column="19260" lean-forward="false" selection-start-line="150885" selection-start-column="19260" selection-end-line="150885" selection-end-column="19260" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cartola/teste.py" />
     <entry file="file://$PROJECT_DIR$/Pontuaçao/Pontuação rodadas.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -427,6 +392,22 @@
     <entry file="file://$PROJECT_DIR$/Cartola/loginform.py" />
     <entry file="file://$PROJECT_DIR$/Cartola/oi.js" />
     <entry file="file://$PROJECT_DIR$/Cartola/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/HTML/cartola.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124600">
+          <caret line="151144" column="3438" lean-forward="false" selection-start-line="151144" selection-start-column="3438" selection-end-line="151144" selection-end-column="3438" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/Melhores para valorizar.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -435,10 +416,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cartola/Cluster Cartola Fc">
+    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="265" column="89" lean-forward="false" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
+        <state relative-caret-position="-306">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cartola/Cluster Cartola Fc v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="305" column="62" lean-forward="false" selection-start-line="305" selection-start-column="62" selection-end-line="305" selection-end-column="62" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#693#1283#0" expanded="false" />
@@ -450,29 +439,55 @@
             <element signature="e#5899#6032#0" expanded="false" />
             <element signature="e#6346#6553#0" expanded="false" />
             <element signature="e#6872#7129#0" expanded="false" />
-            <element signature="e#9639#10054#0" expanded="false" />
-            <element signature="e#10083#10536#0" expanded="false" />
-            <element signature="e#10932#11000#0" expanded="false" />
-            <element signature="e#11254#11595#0" expanded="false" />
-            <element signature="e#13537#13862#0" expanded="false" />
-            <element signature="e#14238#17231#0" expanded="false" />
-            <element signature="e#17599#18124#0" expanded="false" />
+            <element signature="e#7383#10685#0" expanded="false" />
+            <element signature="e#11077#11492#0" expanded="false" />
+            <element signature="e#11521#11974#0" expanded="false" />
+            <element signature="e#12370#12438#0" expanded="false" />
+            <element signature="e#12692#13033#0" expanded="false" />
+            <element signature="e#15990#18983#0" expanded="false" />
+            <element signature="e#19351#19876#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/Melhores para proxima rodada.txt">
+    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/20 Melhores para proxima rodada.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5814">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="-2448">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/10 Melhores para proxima rodada.txt">
+    <entry file="file://$PROJECT_DIR$/Cartola/Cluster Cartola Fc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="1853">
+          <caret line="290" column="21" lean-forward="true" selection-start-line="290" selection-start-column="21" selection-end-line="290" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#693#1283#0" expanded="false" />
+            <element signature="e#1529#2410#0" expanded="false" />
+            <element signature="e#2660#3707#0" expanded="false" />
+            <element signature="e#4771#4841#0" expanded="false" />
+            <element signature="e#5095#5230#0" expanded="false" />
+            <element signature="e#5481#5645#0" expanded="false" />
+            <element signature="e#5899#6032#0" expanded="false" />
+            <element signature="e#6346#6553#0" expanded="false" />
+            <element signature="e#6872#7129#0" expanded="false" />
+            <element signature="e#7383#10685#0" expanded="false" />
+            <element signature="e#11077#11492#0" expanded="false" />
+            <element signature="e#11521#11974#0" expanded="false" />
+            <element signature="e#12370#12438#0" expanded="false" />
+            <element signature="e#12692#13033#0" expanded="false" />
+            <element signature="e#15986#18979#0" expanded="false" />
+            <element signature="e#19347#19872#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cluster/Rodada 4/20 Melhores para proxima rodadav2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="164" column="29" lean-forward="true" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="29" />
           <folding />
         </state>
       </provider>
