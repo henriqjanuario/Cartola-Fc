@@ -20,13 +20,13 @@ Total: 80.4
 ---------------------------------------------------------------------------
 Rodada 4
 ---------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
+Goleiro: Fábio (2.0)
+Zagueiros: Pedro Henrique (6.6) e Léo (0.3)
+Laterais: Diogo Barbosa (-0.7) e Guilherme Arana (3.2)
+Meias: Ramiro (2.0), Wendel (1.2) e Tomas Bastos (2.1)
+Atacancates: Henrique Dourado (9.2), Angel Romero (6.7) e Henrique Almeida (1.7)
+Técnico: Fábio Carille (5.36)
+Total: 39.66
 ---------------------------------------------------------------------------
 Rodada 5
 ---------------------------------------------------------------------------
