@@ -30,72 +30,32 @@ Total: 39.66
 ---------------------------------------------------------------------------
 Rodada 5
 ---------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
+Goleiro: Jandrei(-9.0)
+Zagueiros: Pedro Henrique(0.2) e Marcio(8.4)
+Laterais: Reinaldo(9.0) e Apodi(-1.7)
+Meias: Allione(4.3), Zé Rafael(3.7) e Juninho(5.0)
+Atacancates: Lucca(2.1), Henrique Almeida(2.2) e Jô(12.3)
+Técnico: Vagner Mancini(1.91)
+Total: 38.41
 ---------------------------------------------------------------------------
 Rodada 6
 ---------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
----------------------------------------------------------------------------
-Rodada 7
----------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
----------------------------------------------------------------------------
-Rodada 8
----------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
----------------------------------------------------------------------------
-Rodada 9
----------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
----------------------------------------------------------------------------
-Rodada 10
----------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
-Total:
+Goleiro: Wilson(2.0)
+Zagueiros: Marcio(-0.3) e Werley(1.4)
+Laterais:  William Matheus(2.4) e Dodô(-0.3)
+Meias: Ramiro(-1.8), Michel(4.0) e Arthur(8.1)
+Atacancates: Luan(8.9), Henrique Dourado(6.6) e Lucca(14.8)
+Técnico: Renato Gaúcho(7.91)
+Total: 53.71
 ---------------------------------------------------------------------------
 Rodada 11
 ---------------------------------------------------------------------------
-Goleiro: ()
-Zagueiros: () e ()
-Laterais: () e ()
-Meias: (), () e ()
-Atacancates: (), () e ()
-Técnico: ()
+Goleiro: Cássio()
+Zagueiros: Balbuena() e Pablo()
+Laterais: Guilherme Arana() e Fagner()
+Meias: Maycon(), Marquinhos Gabriel() e Gabriel()
+Atacancates: Jô(), Lucca() e Richarlison()
+Técnico: Fábio Carille()
 Total:
 ---------------------------------------------------------------------------
 Rodada 12

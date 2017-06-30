@@ -4,24 +4,25 @@ import requests
 jogadores = []
 serie_a = []
 adversarios = []
-mando_fora = ["Atlético-PR", "Palmeiras", "Avaí", "Botafogo", "Flamengo", "Corinthians", "Grêmio", "Ponte Preta",
-              "Vitória", "Cruzeiro"]
+mando_fora = ["Grêmio", "Vasco", "Atlético-PR", "Sao Paulo", "Cruzeiro", "Chapecoense", "Botafogo", "Ponte Preta",
+              "Santos", "Bahia"]
+
 
 time_tipo_1 = ["Grêmio", "Flamengo", "Corinthians", "Palmeiras", "Atlético-MG", "São Paulo", "Santos", "Cruzeiro"]
 time_tipo_2 = ["Fluminense", "Ponte Preta", "Coritiba", "Vasco", "Atlético-PR", "Chapecoense"]
 time_tipo_3 = ["Bahia", "Vitória", "Avaí", "Atlético-GO", "Sport", "Botafogo"]
-Rodada = 4
+Rodada = 10
 
 
 # -----------------------FUNÇÃO PARA ADICIONAR ADVERSÁRIOS NA LISTA adversarios-----------------------------#
 def jogos(link):
     casa = None
     fora = None
-    if link.find("div", "game-club game-club--principal") is not None and '5-rodada' in link.find("td", "match").a[
+    if link.find("div", "game-club game-club--principal") is not None and '11-rodada' in link.find("td", "match").a[
         "href"].split("/"):
         casa = link.find("div", "game-club game-club--principal")['title']
 
-    if link.find("div", "game-club game-club--visitor") is not None and '5-rodada' in link.find("td", "match").a[
+    if link.find("div", "game-club game-club--visitor") is not None and '11-rodada' in link.find("td", "match").a[
         "href"].split("/"):
         fora = link.find("div", "game-club game-club--visitor")['title']
 
@@ -96,6 +97,7 @@ def jogador_info(link):
         "Para valorizar": 999,
         "Cluster": None
     }
+
 
 
 # ----------------------------------------------------------------------------------------------------------#
@@ -332,7 +334,7 @@ serie_a.sort(key=lambda valor: valor['Cluster Time Rodada'], reverse=True)
 
 
 # -----------------------------SALVA AS PRINCIPAIS INFORMAÇÕES EM UM ARQUIVO TXT-----------------------------#
-with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 5/Melhores para proxima rodada divisão.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 11/Melhores para proxima rodada divisão.txt", 'w', encoding="utf8") as melhores:
     for jogador in jogadores:
         melhores.write(jogador['Posiçao'] + ' - ' + jogador['Nome'] + ' - ' + jogador['Time'] + ' - C$' + str(
             jogador['Preço']) + ' - ' + jogador["Status"] + ' - (%.2f)' % (jogador["Cluster"]))
@@ -343,7 +345,7 @@ with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 5/Melho
 
 
 # ---------------------------SALVA OS VINTE MELHORES JOGADORES DE CADA POSIÇÃO EM UM ARQUIVO TXT-------------#
-with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 5/20 Melhores para proxima rodada divisão.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 11/20 Melhores para proxima rodada divisão.txt", 'w', encoding="utf8") as melhores:
     cont = 0
     for jogador in jogadores:
         if jogador["Posiçao"] == 'Goleiro' and jogador["Status"] == 'provavel' and cont < 20:
@@ -409,7 +411,7 @@ with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 5/20 Me
 
 
 # -----------------------------SALVA AS INFORMAÇÕES DE VALORIZAÇÃO EM UM ARQUIVO TXT-------------------------#
-with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 5/Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
+with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada 11/Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
     jogadores.sort(key=lambda valor: (valor['Posiçao'], valor['Para valorizar'], valor['Preço']))
     for jogador in jogadores:
         if int(jogador["Jogos"]) == 1 and jogador["Status"] == 'provavel':
