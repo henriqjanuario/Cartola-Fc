@@ -1,0 +1,10 @@
+﻿---------------------------------------------------------------------------
+Rodada 11
+---------------------------------------------------------------------------
+Goleiro: Vanderlei()
+Zagueiros: Balbuena() e David Braz()
+Laterais: Guilherme Arana() e Fagner()
+Meias: Orejuela(), Wendel() e Gustavo Scarpa()
+Atacancates: Richarlison(), kayke() e Lucca()
+Técnico: Levir Culpi()
+Total:

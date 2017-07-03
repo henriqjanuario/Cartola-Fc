@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+Rodada 6
+---------------------------------------------------------------------------
+Goleiro: Wilson(2.0)
+Zagueiros: Marcio(-0.3) e Werley(1.4)
+Laterais:  William Matheus(2.4) e Dodô(-0.3)
+Meias: Ramiro(-1.8), Michel(4.0) e Arthur(8.1)
+Atacancates: Luan(8.9), Henrique Dourado(6.6) e Lucca(14.8)
+Técnico: Renato Gaúcho(7.91)
+Total: 53.71

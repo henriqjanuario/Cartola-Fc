@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+Rodada 6
+---------------------------------------------------------------------------
+Goleiro: Victor(1.7)
+Zagueiros: Felipe Santana(0.1) e Léo(4.2)
+Laterais: Dodô(-0.3) e Diogo Barbosa(5.3)
+Meias: Elias(-1.1), Rafael Carioca(4.3) e Alisson(7.9)
+Atacancates: Ábila(17.4), Fred(4.3) e Robinho(1.0)
+Técnico: Roger Machado(1.14)
+Total: 45.94

@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+Rodada 5
+---------------------------------------------------------------------------
+Goleiro: Jandrei(-9.0)
+Zagueiros: Pedro Henrique(0.2) e Marcio(8.4)
+Laterais: Reinaldo(9.0) e Apodi(-1.7)
+Meias: Allione(4.3), Zé Rafael(3.7) e Juninho(5.0)
+Atacancates: Lucca(2.1), Henrique Almeida(2.2) e Jô(12.3)
+Técnico: Vagner Mancini(1.91)
+Total: 38.41
