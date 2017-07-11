@@ -144,7 +144,7 @@ def tabela_a(link):
     apfora = None
   
     if link.find("td", "team") is not None:
-        clube = link.find("td", "team").div['data-name']
+        clube = link.find("td", "team").a['data-name']
     if link.find("td", "goals_for") is not None:
         g = link.find("td", "goals_for").text
     if link.find("td", "goals_against") is not None:

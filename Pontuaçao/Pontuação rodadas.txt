@@ -50,13 +50,13 @@ Total: 53.71
 ---------------------------------------------------------------------------
 Rodada 11
 ---------------------------------------------------------------------------
-Goleiro: Cássio()
-Zagueiros: Balbuena() e Pablo()
-Laterais: Guilherme Arana() e Fagner()
-Meias: Maycon(), Marquinhos Gabriel() e Gabriel()
-Atacancates: Jô(), Lucca() e Richarlison()
-Técnico: Fábio Carille()
-Total:
+Goleiro: Cássio(5.5)
+Zagueiros: Balbuena(11.0) e Pablo(4.7)
+Laterais: Guilherme Arana(3.6) e Fagner(1.4)
+Meias: Maycon(6.9), Marquinhos Gabriel(1.1) e Zé Rafael(2.6)
+Atacancates: Jô(3.8), Lucca(8.4) e Keno(3.7)
+Técnico: Fábio Carille(4.6)
+Total: 57.3
 ---------------------------------------------------------------------------
 Rodada 12
 ---------------------------------------------------------------------------

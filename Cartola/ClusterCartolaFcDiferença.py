@@ -2,12 +2,14 @@ from bs4 import BeautifulSoup
 import requests
 from funções import *
 
-def diferenca(time_tipo_1, time_tipo_2, time_tipo_3):
+def diferenca(time_tipo_1, time_tipo_2, time_tipo_3, arquivo_dif, arquivo_20_dif, arquivo_val, rodadaAtual):
 
     jogadores = []
     serie_a = []
     adversarios = []
     mando_fora = []
+    rodadaAtualString = str(rodadaAtual) + '-rodada'
+    rodadaAtual = rodadaAtual - 1
 
     # ------------------------ACIONA OS SITES DO CARTOLA DE DA TABELA DE CLASSIFICAÇÃO--------------------------#
     url_tabela = requests.get("http://www.tabeladobrasileirao.net/").text
@@ -16,10 +18,6 @@ def diferenca(time_tipo_1, time_tipo_2, time_tipo_3):
     with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/HTML/cartola.html", encoding="utf8") as html:
         soup = BeautifulSoup(html, "lxml")
 
-    for link in tabela("div", "simulator-games"):
-        rodadaAtual= int(link.find('table', 'table')['data-current-round'])
-        rodadaAtualString = str(rodadaAtual) + '-rodada'
-        rodadaAtual = rodadaAtual - 1
     # -----------------------------------------------------------------------------------------------------------#
     print("PASSO 1 - LEU HTML DO CARTOLA")
 
@@ -251,7 +249,7 @@ def diferenca(time_tipo_1, time_tipo_2, time_tipo_3):
     print("PASSO 13 - ORDENOU AS LISTAS jogadores E serie_a")
 
     # -----------------------------SALVA AS PRINCIPAIS INFORMAÇÕES EM UM ARQUIVO TXT-----------------------------#
-    with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada teste/Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
+    with open(arquivo_dif, 'w', encoding="utf8") as melhores:
         for jogador in jogadores:
             melhores.write(jogador['Posiçao'] + ' - ' + jogador['Nome'] + ' - ' + jogador['Time'] + ' - C$' + str(
                 jogador['Preço']) + ' - ' + jogador["Status"] + ' - (%.2f)' % (jogador["Cluster"]))
@@ -262,7 +260,7 @@ def diferenca(time_tipo_1, time_tipo_2, time_tipo_3):
 
 
     # ---------------------------SALVA OS VINTE MELHORES JOGADORES DE CADA POSIÇÃO EM UM ARQUIVO TXT-------------#
-    with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada teste/20 Melhores para proxima rodada.txt", 'w', encoding="utf8") as melhores:
+    with open(arquivo_20_dif, 'w', encoding="utf8") as melhores:
         cont = 0
         for jogador in jogadores:
             if jogador["Posiçao"] == 'Goleiro' and jogador["Status"] == 'provavel' and cont < 20:
@@ -328,7 +326,7 @@ def diferenca(time_tipo_1, time_tipo_2, time_tipo_3):
 
 
     # -----------------------------SALVA AS INFORMAÇÕES DE VALORIZAÇÃO EM UM ARQUIVO TXT-------------------------#
-    with open("C:/Users/rique_000/Documents/GitHub/Cartola-Fc/Cluster/Rodada teste/Melhores para valorizar.txt", 'w', encoding="utf8") as melhores:
+    with open(arquivo_val, 'w', encoding="utf8") as melhores:
         jogadores.sort(key=lambda valor: (valor['Posiçao'], valor['Para valorizar'], valor['Preço']))
         for jogador in jogadores:
             if int(jogador["Jogos"]) == 1 and jogador["Status"] == 'provavel':

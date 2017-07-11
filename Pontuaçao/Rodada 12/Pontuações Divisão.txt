@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------
+Rodada 12 - Time 1
+---------------------------------------------------------------------------
+Goleiro: Vanderlei(1.7)
+Zagueiros: Lucas Veríssimo(0.1) e Balbuena(7.4)
+Laterais: Guilherme Arana(1.9) e Victor Ferraz(1.1)
+Meias: Michel(7.8), Artur(1.8) e Ramiro(5.4)
+Atacancates: Luan(2.6), Jô(8.9) e Kayke(7.0)
+Técnico: Levir Culpi(3.41)
+Total: 49.11
+
+
+---------------------------------------------------------------------------
+Rodada 12 - Time 2
+---------------------------------------------------------------------------
+Goleiro: Cássio(15.0)
+Zagueiros: David Braz(-2.8) e Pablo(5.9)
+Laterais: Bruno Cortez(0.1) e Edílson(-3.4)
+Meias: Maycon(4.4), Thiago Maia(-1.1) e Rodriguinho(5.8)
+Atacancates: Romero(2.3), Copete(23.0) e Barrios(3.8)
+Técnico: Fábio Carille(6.47)
+Total: 59.47
+
+
+---------------------------------------------------------------------------
+Rodada 12 - Time 3
+---------------------------------------------------------------------------
+Goleiro: Wilson(3.0)
+Zagueiros: Pedro Geromel(4.1) e Kannemann(2.6)
+Laterais: Victor Luis(3.7) e Arnaldo(0.1)
+Meias: Gabriel(4.7), Jean Mota(10.4) e Jadson(5.9)
+Atacancates: Roger(7.8), Kleber(1.9) e Douglas Coutinho(2.1)
+Técnico: Renato Gaúcho(2.35)
+Total: 48.65

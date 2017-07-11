@@ -1,10 +1,10 @@
 ﻿---------------------------------------------------------------------------
 Rodada 11
 ---------------------------------------------------------------------------
-Goleiro: Vanderlei()
-Zagueiros: Balbuena() e David Braz()
-Laterais: Guilherme Arana() e Fagner()
-Meias: Orejuela(), Wendel() e Gustavo Scarpa()
-Atacancates: Richarlison(), kayke() e Lucca()
-Técnico: Levir Culpi()
-Total:
+Goleiro: Cassio(5.5)
+Zagueiros: Réver(9.4) e Balbuena(11.0)
+Laterais: Trauco(4.8) e Pará(4.6)
+Meias: Diego(14.0), Everton(2.0) e Márcio Araújo(9.5)
+Atacancates: Richarlison(10.4), Guerrero(14.7) e Keno(3.7)
+Técnico: Zé Ricardo(8.25)
+Total: 97.85
