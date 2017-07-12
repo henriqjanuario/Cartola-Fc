@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+Rodada 13 
+---------------------------------------------------------------------------
+Goleiro: Cássio()
+Zagueiros: Balbuena() e Pablo()
+Laterais: Guilherme Arana() e Fagner()
+Meias: Diego(), Jucilei() e Everton()
+Atacantes: Lucas Pratto(), Lucca() e André()
+Técnico: Fábio Carille()
+Total: 

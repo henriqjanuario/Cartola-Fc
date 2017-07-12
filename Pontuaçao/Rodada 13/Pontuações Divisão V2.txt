@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+Rodada 13 
+---------------------------------------------------------------------------
+Goleiro: Aranha()
+Zagueiros: Marlon() e Kadu()
+Laterais: Nino Paraíba() e Patric()
+Meias: Cleiton Xavier(), Wendel(Ponte Preta)() e Jadson(Ponte Preta)()
+Atacantes: David(), Lucca() e André Lima()
+Técnico: Gilson Kleina()
+Total: 

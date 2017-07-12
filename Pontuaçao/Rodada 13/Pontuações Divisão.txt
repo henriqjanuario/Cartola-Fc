@@ -1,34 +1,11 @@
 ---------------------------------------------------------------------------
-Rodada 13 - Time 1
+Rodada 13 
 ---------------------------------------------------------------------------
 Goleiro: Aranha()
-Zagueiros: Marllon() e Balbuena()
-Laterais: Guilherme Arana() e Nino Paraíba()
-Meias: Cleyton Xavier(), Rithely() e Carlos Eduardo()
+Zagueiros: Marllon() e Kanu()
+Laterais: Geferson() e Nino Paraíba()
+Meias: Cleiton Xavier(), Rithely() e Carlos Eduardo()
 Atacancates: David(), Lucca() e André Lima()
 Técnico: Alexandre Gallo()
 Total: 
 
-
----------------------------------------------------------------------------
-Rodada 13 - Time 2
----------------------------------------------------------------------------
-Goleiro: Cássio()
-Laterais: Kadu() e Pablo()
-Zagueiros: Geferson() e Fagner()
-Meias: Wendel(), Wendel() e Fernando Bob()
-Atacancates: André(), Osvaldo() e Emerson Sheik()
-Técnico: Gilson Kleina()
-Total: 
-
-
----------------------------------------------------------------------------
-Rodada 13 - Time 3
----------------------------------------------------------------------------
-Goleiro: Fernando Miguel()
-Zagueiros: Kanu() e Lucas Veríssimo()
-Laterais: Patric() e Junior Tavares()
-Meias: Everton Felipe(), Jadson() e Yago()
-Atacancates: Marcos Calazans(), Lucas Pratto() e Richarlison()
-Técnico: Vanderlei Luxemburgo()
-Total: 

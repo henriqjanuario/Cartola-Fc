@@ -94,7 +94,7 @@ def divisao(time_tipo_1, time_tipo_2, time_tipo_3, arquivo_div, arquivo_20_div, 
         mando_fora.append(adversario['Fora'])
 
     # -----------------------------------------------------------------------------------------------------------#
-    print("PASSO 11 - ACHOU OS ADVERSÁRIOS")
+    print("PASSO 8.1 - ACHOU OS ADVERSÁRIOS")
 
     # ------------------------------CALCULO DE CLUSTER DOS JOGADORES---------------------------------------------#
     for jogador in jogadores:
@@ -202,7 +202,6 @@ def divisao(time_tipo_1, time_tipo_2, time_tipo_3, arquivo_div, arquivo_20_div, 
     print("PASSO 10 - CLUSTERIZOU OS TIMES PARA A RODADA")
 
    
-
     # -----------------------ATUALIZA O CLUSTER DOS JOGADORES COM O CLUSTER DOS ADVERSÁRIOS----------------------#
     for jogador in jogadores:
         for classi in serie_a:
@@ -249,13 +248,13 @@ def divisao(time_tipo_1, time_tipo_2, time_tipo_3, arquivo_div, arquivo_20_div, 
                 if jogador["Time"] == classi["Clube"]:
                     jogador["Cluster"] = classi["Cluster Time Rodada"]
     # -----------------------------------------------------------------------------------------------------------#
-    print("PASSO 12 - ATUALIZOU OS CLUSTERS DOS JOGADORES COM O DO TIME ADVERSÁRIO")
+    print("PASSO 11 - ATUALIZOU OS CLUSTERS DOS JOGADORES COM O DO TIME ADVERSÁRIO")
 
     # ---------------------------ORDENA A LISTA DE JOGADORES-----------------------------------------------------#
     jogadores.sort(key=lambda valor: (valor['Posiçao'], valor['Cluster']), reverse=True)
     serie_a.sort(key=lambda valor: valor['Cluster Time Rodada'], reverse=True)
     # -----------------------------------------------------------------------------------------------------------#
-    print("PASSO 13 - ORDENOU AS LISTAS jogadores E serie_a")
+    print("PASSO 12 - ORDENOU AS LISTAS jogadores E serie_a")
 
     # -----------------------------SALVA AS PRINCIPAIS INFORMAÇÕES EM UM ARQUIVO TXT-----------------------------#
     with open(arquivo_div, 'w', encoding="utf8") as melhores:
@@ -345,7 +344,7 @@ def divisao(time_tipo_1, time_tipo_2, time_tipo_3, arquivo_div, arquivo_20_div, 
                 melhores.write(150 * '-')
                 melhores.write('\n')
     # ------------------------------------------------------------------------------------------------------------#
-    print("PASSO 14 - SALVOU TODAS AS INFORMAÇÕES NOS ARQUIVOS .TXT")
+    print("PASSO 13 - SALVOU TODAS AS INFORMAÇÕES NOS ARQUIVOS .TXT")
 
     # --------------------------PRINTA TODAS AS INFORMAÇÕES DOS JOGADORES----------------------------------------#
     #for jogador in jogadores:
